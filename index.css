@@ -1,0 +1,666 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+/* .content {
+
+    @media (min-width: 800px) {
+      float: left;
+      width: 60%;
+    }
+  } */
+
+
+.navbar{
+    background-color: #faebeb;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 89px;
+    position: fixed;
+    top: 0;
+}
+
+
+.botonera li a:hover {
+    background-color: #f1cdbc;
+    border-radius: 30px;
+    border: none;
+}
+
+
+.subnav {
+    display: none;
+    position: absolute;
+    margin-top: 2.4rem;
+}
+
+
+
+.subnav li a{
+    width: 100%;
+    text-align: center;
+}
+
+
+.cuidad:hover  .subnav {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #faebeb;
+    overflow: hidden;
+
+}
+
+.logo-png{
+    overflow: visible;
+    position: absolute;
+    right: 5rem;
+    top:0;
+}
+
+
+.botonera{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.botonera li {
+    list-style: none;
+    margin-left: 1rem;
+    height: 86px;
+    padding: 30px 0px;
+
+    
+}
+
+.botonera li a {
+    padding: 40px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:400;
+    font-size:15px;
+    letter-spacing: 1.5px;
+
+}
+
+
+.buscador{
+    margin-left: 14rem;
+}
+
+@media only screen and (max-width: 980px) {
+
+      .botonera { display: inline-block; width:100%; font-size: 16px; font-weight: bold; }
+      .buscador { display:none;}
+      .logo-png {display: none;}
+      .subnav {display: none;}
+    }
+    
+
+/*-------------termino header general de navbar---------*/
+
+
+
+main{
+    background-image: url(backgraunds/460223752b81967138faffaf09aba7f6.jpg);
+    background-repeat: round;
+    position: static;
+    top: 0px;
+}
+
+/*---------------------comienza index--------------------------------------------*/
+
+.body-index{
+    width: 100%;
+    background: url(images/flowers.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.animate__animated{
+    text-align: center;
+    margin-top: 33rem;
+    margin-left: 25rem;
+    color: rgba(23, 31, 33, 0.701);
+    word-spacing: 90px;
+    width: 50%;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    text-shadow: rgba(236, 81, 192, 0.221) 6px 0 10px;
+    transform: translate();
+}
+
+
+.main-index{
+    width: 100%;
+    margin-top: 13rem;
+    background: url(backgraunds/460223752b81967138faffaf09aba7f6.jpg);
+    background-blend-mode: darken, luminosity;
+    box-shadow: 20px 4px 9px rgba(0.25, 0.5, 0.8, 0.25);
+    margin-bottom: 4rem;
+}
+
+.top-home{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.dog-home{
+    width: 1000px;
+    
+}
+
+.dog-home:hover{
+    background-image: url(images/globo-texto-txt.png);
+    background-position: top 30px left 460px;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.vacum-home{
+    display: flex;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+   /* transition: transform 3s;*/
+}
+
+/*.vacum-home:hover{
+    transform: rotate(0.02turn);
+ }*/
+
+/**/
+
+.section-extras{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.section-up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+.section-up a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    padding: 30px;
+    font-size: x-large;
+}
+
+.section-down{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.section-down a{
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+    font-size: x-large;
+}
+
+.barf{
+    background: url(images/perro\ shih\ tzu\ junto\ a\ unos\ tomates.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    transition: transform 0.5s;
+    
+}
+
+.section-extras a:hover{
+    transform: scale(1.1);
+}
+
+.stress{
+    background: url(images/shih-tzu-breed-picture-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+.sarro{
+    background: url(images/Guia-práctica-de-higiene-dental-para-perros-y-gatos-1.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+.rcp{
+    background: url(images/shih-poo-mixed-dog-breed-pictures-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+.hemlich{
+    background: url(images/shih-tzu-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+.ice-cream{
+    background: url(images/ice-cream.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+section a:hover{
+    opacity: 75%;
+    color:black;
+    text-shadow: rgb(244, 240, 220) 1px 0 10px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+
+@media only screen and (max-width: 980px) {
+ 
+    main{width: 100%;}
+   section { display: inline-block; width:100%;}
+    .section-down { display: inline-block; width:100%;}
+    .section-up {display: inline-block; width:100%;}
+    .dog-home {display: none;}
+    .vacum-home{width: 100%;}
+    .animate__animated{display: none;}
+}
+
+/*------fin pagina index-------*/
+
+
+/*-------------------comienzo pagina historia-------------------------------------*/
+
+.main-hist-grid{
+    overflow-x:hidden;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 200px, repeat(7 560px);
+    grid-template-columns: repeat(2 50%);
+    /* grid-template-rows: minmax(300px,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); */
+    grid-template-areas: 
+    "titulo titulo"
+    "text-one-hist img-text-one"
+    "img-text-two text-two-hist"
+    "text-three-hist img-text-three"
+    "img-text-four text-four-hist"
+    "text-five-hist img-text-five"
+    "img-text-six text-six-hist"
+    "text-seven-hist img-text-seven" ;
+}
+
+.main-hist-grid p{
+    width: 600px;
+    margin: 5rem 0rem 0rem 5rem;
+    padding: 2rem;
+    font-size: larger;
+    font-weight: 900px;
+    letter-spacing: 5px;
+    line-height: 30px
+}
+
+.main-hist-grid img{
+    margin-left: 6rem;
+    width: 60%;
+}
+
+
+.text-one-hist{
+    grid-area: text-one-hist;
+    background: url(images/backgroung-aper-2.png);
+    background-size: 110%; 
+    padding: 130px 25px 10px 50px;
+    background-repeat: no-repeat;
+}
+.img-text-one{ 
+    grid-area: img-text-one;
+    margin-top: 9rem;
+    width: 100%;
+}
+
+.text-two-hist{
+    grid-area: text-two-hist;
+    background: url(images/background-paper.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 6rem;
+    padding: 2rem 2.5rem 0rem 0rem;
+}
+.img-text-two{
+    grid-area: img-text-two;
+    width: 76%;
+    margin-left: 19rem;
+    margin-top: 2rem;
+}
+
+.text-three-hist{
+    grid-area: text-three-hist;
+    background: url(images/backgroung-aper-2.png);
+    background-size: 110%; 
+    padding: 150px 55px 10px 60px;
+    background-repeat: no-repeat;
+}
+.img-three-hist{
+    grid-area: img-text-three;
+    width: 110%;
+    margin-left: 19rem;
+    rotate: 10deg;
+}
+
+.text-four-hist{
+    grid-area: text-four-hist;
+    padding-bottom: 8rem;
+    padding-left: 2rem;
+    background: url(images/background-paper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-four-hist{
+    grid-area: img-text-four;
+    width: 100%;
+    margin-left: 39rem;
+    margin-top: 1rem;
+}
+
+.text-five-hist{
+    grid-area: text-five-hist;
+    background: url(images/background-paper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 6rem;
+    padding: 25px;
+}
+.img-five-hist{
+    grid-area: img-text-five;
+    width: 110%;
+    margin-left: 19rem;
+}
+
+.text-six-hist{
+    grid-area: text-six-hist;
+    background: url(images/backgroung-aper-2.png);
+    background-size: 110%; 
+    margin-right: 15rem;
+    padding: 150px 50px 10px 70px;
+    background-repeat: no-repeat;
+}
+.img-six-hist{
+    grid-area: img-text-six;
+    width: 60%;
+}
+
+.text-seven-hist{
+    grid-area: text-seven-hist;
+    background: url(images/background-paper.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 6rem;
+    padding: 2rem 4rem 0rem 0rem;
+}
+.img-seven-hist{
+    grid-area: img-text-seven;
+}
+/*---------------fin pagina historia----------*/
+
+
+
+/*-------------comienzo pagina caracteristicas --------------*/
+
+.main-caract{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    overflow-x: hidden;
+    grid-template-columns: repeat(3, 775px);
+    grid-template-rows: 400px auto auto auto;
+    grid-template-areas:
+    "content-eyes dog-caract content-ocico"
+    "content-peso dog-caract ."
+    "content-hair dog-caract ."
+    "text-aditional text-aditional text-aditional";
+    row-gap: 5rem;
+}
+
+.dog-caract img{
+    grid-area: dog-caract;
+    width: 160%;
+    margin-top: 11rem;
+}
+
+.content-eyes{
+    grid-area: content-eyes;
+    background-color: #faebeb;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    height :min-content;
+    margin: 10rem 0rem 0rem 10rem;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.content-hair{
+    grid-area: content-hair;
+    background-color: #faebeb;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    margin: 0rem 0rem 5rem 16rem;
+    border-radius: 12px;
+    padding: 1rem;
+    opacity: 0%;
+}
+
+.content-ocico{
+    grid-area: content-ocico;
+    background-color: #faebeb;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    height :min-content;
+    margin: 7rem 9rem 0rem 0rem;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.content-peso{
+    grid-area: content-peso ;
+    background-color: #faebeb;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    height :min-content;
+    margin: 7rem 0rem 0rem 10rem;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+[class*="content-"]{
+    line-height: 30px;
+    letter-spacing: 3px;
+    opacity: 0%;
+}
+
+.dog-caract:hover ~ [class*="content-"]{
+    opacity: 100%;
+
+}
+
+.text-aditional{
+    grid-area: text-aditional;
+    text-align: center;
+    margin: 0rem 13rem;
+    padding: 22rem;
+    font-size: x-large;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+    background: url(images/background-paper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* .index-carac{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-carac{
+    width: 100%;
+    height: 100%;
+    position: static;
+}
+
+.img-y-text-carac{
+    margin: 5rem 2rem 0rem 70rem;
+    padding: 8rem 10.5rem 0rem 5rem;
+    background-image: url(images/paper-historia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: justify;
+    position: absolute;
+}
+
+.img-y-text-carac h2{
+    text-align: center;
+} */
+
+/*------------fin pagina caracteristicas----------------------*/
+
+
+/*-------------------comienza cuidados-home-----------------------------*/
+
+.main-cuidados img{
+    width: 110%;
+    margin-bottom: 0rem;
+}
+
+
+.bottons-cuid{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12.6rem;
+    margin-left: 9rem;
+}
+
+.bottons-cuid a{
+    margin: 6rem;
+    width: 400px;
+    height: 85px;
+    color: transparent;
+    font-size: xx-large;
+
+}
+
+/*--------fin pagina cuidados--------*/
+
+
+/*--------------------comineza contactanos-----------------------------------*/
+
+.form-{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin:0 10rem;
+    padding: 10rem;
+    font-size: x-large;
+
+    background-image: url(backgraunds/formulario.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nom{
+    margin: 1rem;
+
+}
+
+.form input{
+    border: 0px;
+    background-color: transparent;
+    border-bottom: dotted;
+    width: 300px;
+    height: 40px;
+}
+.email{
+    margin: 1rem;
+}
+
+.form .comments{
+    border: 2px dotted black;
+    width: 550px;
+    height: 200px;
+    
+}
+
+.form .button-sbmit{
+    background-color: #f1cdbc;
+    border: none;
+    border-radius: 12px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+/*---------------fin pagina contactanos-------------*/
+
+
+/*----------------------cominezo footer----------------------------------*/
+
+footer{
+    background-color: #f1cdbc;
+    bottom: 0;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    
+}
+
+footer span{
+    margin-right: 1280px;
+}
+
