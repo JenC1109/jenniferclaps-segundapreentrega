@@ -602,21 +602,21 @@ section a:hover{
 
 /*--------------------comineza contactanos-----------------------------------*/
 
-.form-{
-    /* display: flex;
+.form{
+     display: flex;
     flex-direction: column;
-    align-items: center; */
-    margin:0 10rem;
+    align-items: center; 
+    margin:0rem 10rem;
     padding: 10rem;
     font-size: x-large;
 
     background-image: url(backgraunds/formulario.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .nom{
-    margin: 1rem;
+    margin: 3rem;
 
 }
 
@@ -644,6 +644,10 @@ section a:hover{
     border-radius: 12px;
     margin: 30px;
     cursor: pointer;
+}
+
+.form .button-sbmit:hover{
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
 }
 
 /*---------------fin pagina contactanos-------------*/
