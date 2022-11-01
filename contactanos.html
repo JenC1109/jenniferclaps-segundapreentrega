@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -36,7 +36,7 @@
                     </ul>
                     </li>
 
-                <li><a href="contactanos.html"style="background-color: #f1cdbc; border-radius: 20px;">Contactanos</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
 
                 
                 <li>
@@ -51,7 +51,7 @@
         </nav>
             
     </header>
-    <main>
+    <main class="main-form">
          <div class="form">
                         
                     <H3>FORMULARIO DE CONTACTO</H3>
@@ -62,9 +62,9 @@
                     <label for="Email de" class="email">Email de contacto
                     <input  type="email" name="Email de contacto" id="" placeholder="Ingresa tu email de contacto"></label>
 
-                    <label for="Comentarios">Dejanos tu comentario / Sugerencia:
+                    <div class="text-coment"><label for="Comentarios">Dejanos tu comentario / Sugerencia:</div>
                        
-                        <input type="text" name="" id="" class="comments" placeholder="Escribe tu comentario / sugerencia" maxlength="200">
+                        <div><input type="text" name="" id="" class="comments" placeholder="Escribe tu comentario" maxlength="200"></div>
                     </label>
                      <input type="submit" value="ENVIAR" class="button-sbmit">
         </div> 
@@ -107,7 +107,8 @@
     </main>
     <footer> 
         <span>Hecha por Jen Claps</span>
-        <strong style="cursor: pointer;">Preguntas frecuentes </strong>- Página no oficial de Shih Tzu
+        <strong style="cursor: pointer;">Preguntas frecuentes </strong>
+        <span>- Página no oficial de Shih Tzu</span>
     </footer>
 </body>
 </html>
