@@ -4,6 +4,16 @@
 
 $background-primary-color: #faebeb;
 $background-acent-color: #f1cdbc;
+$shadow-secondary: 0px 4px 9px rgba(0, 0, 0, 0.25);
+
+$estilos-cards-home: (
+    brepeat: no-repeat,
+    size: cover,
+    width: 500px,
+    height: 300px,
+    radius: 15px,
+    trans: transform 0.5s
+);
 
 
 .navbar{
@@ -224,12 +234,12 @@ $background-acent-color: #f1cdbc;
 
 .barf{
     background-image: url('/images/perro\ shih\ tzu\ junto\ a\ unos\ tomates.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: map-get($estilos-cards-home , brepeat);
+    background-size:  map-get($estilos-cards-home , size);
     width: 500px;
     height: 300px;
-    border-radius: 15px;
-    transition: transform 0.5s;
+    border-radius:  map-get($estilos-cards-home , radius);
+    transition:  map-get($estilos-cards-home , trans);
     
 }
 
@@ -243,52 +253,52 @@ $background-acent-color: #f1cdbc;
 
 .stress{
     background: url('/images/shih-tzu-breed-picture-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: map-get($estilos-cards-home , brepeat);
+    background-size:  map-get($estilos-cards-home , size);
     width: 500px;
     height: 300px;
-    border-radius: 15px;
-    transition: transform 0.5s;
+    border-radius:  map-get($estilos-cards-home , radius);
+    transition:  map-get($estilos-cards-home , trans);
 }
 
 .sarro{
     background: url('/images/Guia-práctica-de-higiene-dental-para-perros-y-gatos-1.jpg.crdownload');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: map-get($estilos-cards-home , brepeat);
+    background-size:  map-get($estilos-cards-home , size);
     width: 500px;
     height: 300px;
-    border-radius: 15px;
-    transition: transform 0.5s;
+    border-radius:  map-get($estilos-cards-home , radius);
+    transition:  map-get($estilos-cards-home , trans);
 }
 
 .rcp{
     background: url('/images/shih-poo-mixed-dog-breed-pictures-cover.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: map-get($estilos-cards-home , brepeat);
+    background-size:  map-get($estilos-cards-home , size);
     width: 500px;
     height: 300px;
-    border-radius: 15px;
-    transition: transform 0.5s;
+    border-radius:  map-get($estilos-cards-home , radius);
+    transition:  map-get($estilos-cards-home , trans);
 }
 
 .hemlich{
     background: url('/images/shih-tzu-3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: map-get($estilos-cards-home , brepeat);
+    background-size:  map-get($estilos-cards-home , size);
     width: 500px;
     height: 300px;
-    border-radius: 15px;
-    transition: transform 0.5s;
+    border-radius:  map-get($estilos-cards-home , radius);
+    transition:  map-get($estilos-cards-home , trans);
 }
 
 .ice-cream{
     background: url('/images/ice-cream.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: map-get($estilos-cards-home , brepeat);
+    background-size:  map-get($estilos-cards-home , size);
     width: 500px;
     height: 300px;
-    border-radius: 15px;
-    transition: transform 0.5s;
+    border-radius:  map-get($estilos-cards-home , radius);
+    transition:  map-get($estilos-cards-home , trans);
 }
 
 section{
@@ -499,7 +509,7 @@ section{
 .content-eyes{
     grid-area: content-eyes;
     background-color: $background-primary-color;
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    box-shadow: $shadow-secondary;
     height :min-content;
     margin: 10rem 0rem 0rem 10rem;
     border-radius: 12px;
@@ -509,7 +519,7 @@ section{
 .content-hair{
     grid-area: content-hair;
     background-color: $background-primary-color;
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    box-shadow: $shadow-secondary;
     margin: 0rem 0rem 0rem 16rem;
     border-radius: 12px;
     padding: 1rem;
@@ -518,7 +528,7 @@ section{
 .content-ocico{
     grid-area: content-ocico;
     background-color: $background-primary-color;
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    box-shadow: $shadow-secondary;
     height :min-content;
     margin: 0rem 9rem 0rem 0rem;
     padding: 1rem;
@@ -528,7 +538,7 @@ section{
 .content-peso{
     grid-area: content-peso ;
     background-color: $background-primary-color;
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    box-shadow: $shadow-secondary;
     height :min-content;
     margin: 11rem 0rem 0.5rem 10rem;
     padding: 1rem;
