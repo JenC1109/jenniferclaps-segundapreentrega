@@ -6,6 +6,7 @@
   box-sizing: border-box; }
 
 main {
+  background-image: url("/backgraunds/460223752b81967138faffaf09aba7f6.jpg");
   background-color: #f1cdbc;
   border: none;
   overflow: hidden;
@@ -13,57 +14,57 @@ main {
   font-weight: bolder; }
 
 @media only screen and (max-width: 980px) {
-  .botonera {
+  :root .botonera {
     display: inline-block;
     width: 100%;
     font-size: 16px;
     font-weight: bold;
     padding: 0; }
-  .buscador {
+  :root .buscador {
     display: none; }
-  .logo-png {
+  :root .logo-png {
     display: none; }
-  .subnav {
+  :root .subnav {
     display: none; }
-  .navbar {
+  :root .navbar {
     position: static !important; }
-  .botonera li a {
+  :root .botonera li a {
     padding: 0px;
     margin: 0px; }
-  .main {
+  :root .main {
     width: 100%; }
-  section {
+  :root section {
     display: inline-block; }
-  .dog-home {
+  :root .dog-home {
     display: none; }
-  .vacum-home {
+  :root .vacum-home {
     width: 100%; }
-  .animate__animated {
+  :root .animate__animated {
     display: none; }
-  .main-caract {
+  :root .main-caract {
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0; }
-  [class*="content-"] {
+  :root [class*="content-"] {
     margin: 0; }
-  .text-aditional {
+  :root .text-aditional {
     margin: 0;
     padding: 0;
     font-size: medium;
     background: none;
     line-height: 25px; }
-  .form {
+  :root .form {
     justify-content: left;
-    margin-left: 0;
+    margin: 0rem 7rem 7rem 7rem;
     width: 100%;
     background: none; }
-  .form .comments {
-    width: 250px;
-    text-align: left; }
-  .form h3 {
-    text-align: center; } }
+    :root .form .comments {
+      width: 250px;
+      text-align: left; }
+    :root .form h3 {
+      text-align: center; } }
 
 .navbar {
   background-color: #faebeb;
@@ -78,14 +79,18 @@ main {
   position: absolute;
   margin-top: 1.9rem; }
   .subnav li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     text-align: center;
-    overflow: hidden; }
+    overflow: hidden;
+    padding: 0; }
 
 .cuidad:hover .subnav {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  align-content: center;
   background-color: #faebeb;
   overflow: hidden; }
 
@@ -101,7 +106,7 @@ main {
   flex-direction: row; }
   .botonera li {
     list-style: none;
-    margin-left: 1rem;
+    margin: 0rem 1rem;
     padding: 30px 0px 0px 0px; }
     .botonera li a {
       padding: 40px;
@@ -554,12 +559,12 @@ section a:hover {
     height: 200px;
     margin-top: 1rem; }
   .form .button-sbmit {
-    background-color: #f1cdbc;
+    background-color: #faebeb;
     border: none;
     border-radius: 12px;
     margin-top: 30px;
     cursor: pointer; }
-    .form .button-sbmithover {
+    .form .button-sbmit:hover {
       box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25); }
 
 .nom {

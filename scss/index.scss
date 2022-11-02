@@ -22,9 +22,13 @@ $background-acent-color: #f1cdbc;
     margin-top: 1.9rem;
 		li{
 			a{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
 				width: 100%;
 				text-align: center;
 				overflow: hidden;
+                padding: 0;
 			}
 		}				
 }
@@ -36,7 +40,7 @@ $background-acent-color: #f1cdbc;
 		.subnav {
 				display: flex;
 				flex-direction: column;
-				align-content: space-between;
+				align-content: center;
 				background-color: $background-primary-color;
 				overflow: hidden;
 		}
@@ -58,7 +62,7 @@ $background-acent-color: #f1cdbc;
 	
 		li{
 			list-style: none;
-			margin-left: 1rem;
+			margin: 0rem 1rem;
 			padding: 30px 0px 0px 0px;
 			a {
 				padding: 40px;
@@ -617,12 +621,12 @@ section{
 					margin-top: 1rem;
 			}
 				.button-sbmit{
-						background-color: #f1cdbc;
+						background-color: $background-primary-color;
 						border: none;
 						border-radius: 12px;
 						margin-top: 30px;
 						cursor: pointer;
-							&hover{
+							&:hover{
 								box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
 								}
 				}
