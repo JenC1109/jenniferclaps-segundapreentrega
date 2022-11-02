@@ -164,7 +164,7 @@ main {
 /*---------------------comienza index--------------------------------------------*/
 .body-index {
   width: 100%;
-  background-image: url("images/flowers.jpg");
+  background-image: url("/images/flowers.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
@@ -255,7 +255,7 @@ main {
     font-size: x-large; }
 
 .barf {
-  background-image: url("imagesperro shih tzu junto a unos tomates.avif");
+  background-image: url("/images/perro shih tzu junto a unos tomates.avif");
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
