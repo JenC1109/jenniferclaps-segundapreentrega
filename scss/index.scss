@@ -1,4 +1,4 @@
-@import "scss/general";
+@import "scss/general.scss";
 @import "main.scss";
 @import "media-queries.scss";
 
@@ -347,7 +347,7 @@ section{
 
 .text-one-hist{
     grid-area: text-one-hist;
-    background: url(images/backgroung-aper-2.png);
+    background: url('/images/backgroung-aper-2.png');
     background-size: 110%; 
     padding: 130px 25px 10px 50px;
     background-repeat: no-repeat;
@@ -360,7 +360,7 @@ section{
 
 .text-two-hist{
     grid-area: text-two-hist;
-    background: url(images/background-paper.png);
+    background: url('/images/background-paper.png');
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: 6rem;
@@ -375,7 +375,7 @@ section{
 
 .text-three-hist{
     grid-area: text-three-hist;
-    background: url(images/backgroung-aper-2.png);
+    background: url('/images/backgroung-aper-2.png');
     background-size: 110%; 
     padding: 150px 55px 10px 60px;
     background-repeat: no-repeat;
@@ -391,7 +391,7 @@ section{
     grid-area: text-four-hist;
     padding-bottom: 8rem;
     padding-left: 2rem;
-    background: url(images/background-paper.png);
+    background: url('/images/background-paper.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -404,7 +404,7 @@ section{
 
 .text-five-hist{
     grid-area: text-five-hist;
-    background: url(images/background-paper.png);
+    background: url('/images/background-paper.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 6rem;
@@ -418,7 +418,7 @@ section{
 
 .text-six-hist{
     grid-area: text-six-hist;
-    background: url(images/backgroung-aper-2.png);
+    background: url('/images/backgroung-aper-2.png');
     background-size: 110%; 
     margin-right: 15rem;
     padding: 150px 50px 10px 70px;
@@ -431,7 +431,7 @@ section{
 
 .text-seven-hist{
     grid-area: text-seven-hist;
-    background: url(images/background-paper.png);
+    background: url('/images/background-paper.png');
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: 6rem;
@@ -545,7 +545,7 @@ section{
     font-size: x-large;
     letter-spacing: 3px;
     font-variant: small-caps;
-    background: url(images/background-paper.png);
+    background: url('/images/background-paper.png');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -600,7 +600,7 @@ section{
     align-items: center; 
     margin:5rem 10rem;
     padding: 20rem 20rem 0rem 0rem;
-    background-image: url(backgraunds/formulario.png);
+    background-image: url('/backgraunds/formulario.png');
     background-size: 100%;
     background-repeat: no-repeat;
 		input{
