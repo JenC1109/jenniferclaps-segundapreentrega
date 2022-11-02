@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -164,7 +163,7 @@ main {
 /*---------------------comienza index--------------------------------------------*/
 .body-index {
   width: 100%;
-  background-image: url("/images/flowers.jpg");
+  background-image: url("../images/flowers.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
@@ -276,7 +275,7 @@ main {
   transition: transform 0.5s; }
 
 .sarro {
-  background-image: url("images/Guia-práctica-de-higiene-dental-para-perros-y-gatos-1.jpg.crdownload");
+  background-image: url("/images/sarropic.crdownload");
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
