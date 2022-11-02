@@ -184,7 +184,7 @@ main {
 .main-index {
   width: 100%;
   margin-top: 13rem;
-  background-image: url("backgraunds/main-backg.jpg");
+  background-image: url("../backgraunds/main-backg.jpg");
   background-blend-mode: darken, luminosity;
   box-shadow: 20px 4px 9px rgba(0, 1, 1, 0.25);
   margin-bottom: 4rem; }
@@ -199,7 +199,7 @@ main {
   width: 1000px; }
 
 .dog-home:hover {
-  background-image: url("images/globo-texto-txt.png");
+  background-image: url("../images/globo-texto-txt.png");
   background-position: top 30px left 460px;
   background-repeat: no-repeat;
   background-size: 60%; }
@@ -254,7 +254,7 @@ main {
     font-size: x-large; }
 
 .barf {
-  background-image: url("/images/perro shih tzu junto a unos tomates.avif");
+  background-image: url("../images/perro shih tzu junto a unos tomates.avif");
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
@@ -266,7 +266,7 @@ main {
   transform: scale(1.1); }
 
 .stress {
-  background: url("/images/shih-tzu-breed-picture-1.jpg");
+  background: url("../images/shih-tzu-breed-picture-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
@@ -275,7 +275,7 @@ main {
   transition: transform 0.5s; }
 
 .sarro {
-  background-image: url("/images/sarropic.crdownload");
+  background-image: url("../images/sarropic.crdownload");
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
@@ -284,7 +284,7 @@ main {
   transition: transform 0.5s; }
 
 .rcp {
-  background: url("/images/shih-poo-mixed-dog-breed-pictures-cover.jpg");
+  background: url("../images/shih-poo-mixed-dog-breed-pictures-cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
@@ -293,7 +293,7 @@ main {
   transition: transform 0.5s; }
 
 .hemlich {
-  background: url("/images/shih-tzu-3.jpg");
+  background: url("../images/shih-tzu-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
@@ -302,7 +302,7 @@ main {
   transition: transform 0.5s; }
 
 .ice-cream {
-  background: url("/images/ice-cream.jpg");
+  background: url("../images/ice-cream.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
@@ -349,7 +349,7 @@ section a:hover {
 
 .text-one-hist {
   grid-area: text-one-hist;
-  background: url("/images/backgroung-aper-2.png");
+  background: url("../images/backgroung-aper-2.png");
   background-size: 110%;
   padding: 130px 25px 10px 50px;
   background-repeat: no-repeat; }
@@ -361,7 +361,7 @@ section a:hover {
 
 .text-two-hist {
   grid-area: text-two-hist;
-  background: url("/images/background-paper.png");
+  background: url("../images/background-paper.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 6rem;
@@ -375,7 +375,7 @@ section a:hover {
 
 .text-three-hist {
   grid-area: text-three-hist;
-  background: url("/images/backgroung-aper-2.png");
+  background: url("../images/backgroung-aper-2.png");
   background-size: 110%;
   padding: 150px 55px 10px 60px;
   background-repeat: no-repeat; }
@@ -390,7 +390,7 @@ section a:hover {
   grid-area: text-four-hist;
   padding-bottom: 8rem;
   padding-left: 2rem;
-  background: url("/images/background-paper.png");
+  background: url("../images/background-paper.png");
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -402,7 +402,7 @@ section a:hover {
 
 .text-five-hist {
   grid-area: text-five-hist;
-  background: url("/images/background-paper.png");
+  background: url("../images/background-paper.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 6rem;
@@ -415,7 +415,7 @@ section a:hover {
 
 .text-six-hist {
   grid-area: text-six-hist;
-  background: url("/images/backgroung-aper-2.png");
+  background: url("../images/backgroung-aper-2.png");
   background-size: 110%;
   margin-right: 15rem;
   padding: 150px 50px 10px 70px;
@@ -427,7 +427,7 @@ section a:hover {
 
 .text-seven-hist {
   grid-area: text-seven-hist;
-  background: url("/images/background-paper.png");
+  background: url("../images/background-paper.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 6rem;
@@ -523,7 +523,7 @@ section a:hover {
   font-size: x-large;
   letter-spacing: 3px;
   font-variant: small-caps;
-  background: url("/images/background-paper.png");
+  background: url("../images/background-paper.png");
   background-repeat: no-repeat;
   background-size: cover; }
 

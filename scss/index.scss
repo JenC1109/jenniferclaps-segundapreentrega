@@ -148,7 +148,7 @@ $estilos-cards-home: (
     width: 100%;
     margin-top: 13rem;
     background-image: 
-    url('backgraunds/main-backg.jpg');
+    url('../backgraunds/main-backg.jpg');
     background-blend-mode: darken, luminosity;
     box-shadow: 20px 4px 9px rgba(0.25, 0.5, 0.8, 0.25);
     margin-bottom: 4rem;
@@ -168,7 +168,7 @@ $estilos-cards-home: (
 
 .dog-home{
 	&:hover{
-		background-image: url('images/globo-texto-txt.png');
+		background-image: url('../images/globo-texto-txt.png');
 		background-position: top 30px left 460px;
 		background-repeat: no-repeat;
 		background-size: 60%;
@@ -236,7 +236,7 @@ $estilos-cards-home: (
 
 
 .barf{
-    background-image: url('/images/perro\ shih\ tzu\ junto\ a\ unos\ tomates.avif');
+    background-image: url('../images/perro\ shih\ tzu\ junto\ a\ unos\ tomates.avif');
     background-repeat: map-get($estilos-cards-home , brepeat);
     background-size:  map-get($estilos-cards-home , size);
     width: 500px;
@@ -255,7 +255,7 @@ $estilos-cards-home: (
 }
 
 .stress{
-    background: url('/images/shih-tzu-breed-picture-1.jpg');
+    background: url('../images/shih-tzu-breed-picture-1.jpg');
     background-repeat: map-get($estilos-cards-home , brepeat);
     background-size:  map-get($estilos-cards-home , size);
     width: 500px;
@@ -265,7 +265,7 @@ $estilos-cards-home: (
 }
 
 .sarro{
-    background-image: url('/images/sarropic.crdownload');
+    background-image: url('../images/sarropic.crdownload');
     background-repeat: map-get($estilos-cards-home , brepeat);
     background-size:  map-get($estilos-cards-home , size);
     width: 500px;
@@ -275,7 +275,7 @@ $estilos-cards-home: (
 }
 
 .rcp{
-    background: url('/images/shih-poo-mixed-dog-breed-pictures-cover.jpg');
+    background: url('../images/shih-poo-mixed-dog-breed-pictures-cover.jpg');
     background-repeat: map-get($estilos-cards-home , brepeat);
     background-size:  map-get($estilos-cards-home , size);
     width: 500px;
@@ -285,7 +285,7 @@ $estilos-cards-home: (
 }
 
 .hemlich{
-    background: url('/images/shih-tzu-3.jpg');
+    background: url('../images/shih-tzu-3.jpg');
     background-repeat: map-get($estilos-cards-home , brepeat);
     background-size:  map-get($estilos-cards-home , size);
     width: 500px;
@@ -295,7 +295,7 @@ $estilos-cards-home: (
 }
 
 .ice-cream{
-    background: url('/images/ice-cream.jpg');
+    background: url('../images/ice-cream.jpg');
     background-repeat: map-get($estilos-cards-home , brepeat);
     background-size:  map-get($estilos-cards-home , size);
     width: 500px;
@@ -364,7 +364,7 @@ section{
 
 .text-one-hist{
     grid-area: text-one-hist;
-    background: url('/images/backgroung-aper-2.png');
+    background: url('../images/backgroung-aper-2.png');
     background-size: 110%; 
     padding: 130px 25px 10px 50px;
     background-repeat: no-repeat;
@@ -377,7 +377,7 @@ section{
 
 .text-two-hist{
     grid-area: text-two-hist;
-    background: url('/images/background-paper.png');
+    background: url('../images/background-paper.png');
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: 6rem;
@@ -392,7 +392,7 @@ section{
 
 .text-three-hist{
     grid-area: text-three-hist;
-    background: url('/images/backgroung-aper-2.png');
+    background: url('../images/backgroung-aper-2.png');
     background-size: 110%; 
     padding: 150px 55px 10px 60px;
     background-repeat: no-repeat;
@@ -408,7 +408,7 @@ section{
     grid-area: text-four-hist;
     padding-bottom: 8rem;
     padding-left: 2rem;
-    background: url('/images/background-paper.png');
+    background: url('../images/background-paper.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -421,7 +421,7 @@ section{
 
 .text-five-hist{
     grid-area: text-five-hist;
-    background: url('/images/background-paper.png');
+    background: url('../images/background-paper.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 6rem;
@@ -435,7 +435,7 @@ section{
 
 .text-six-hist{
     grid-area: text-six-hist;
-    background: url('/images/backgroung-aper-2.png');
+    background: url('../images/backgroung-aper-2.png');
     background-size: 110%; 
     margin-right: 15rem;
     padding: 150px 50px 10px 70px;
@@ -448,7 +448,7 @@ section{
 
 .text-seven-hist{
     grid-area: text-seven-hist;
-    background: url('/images/background-paper.png');
+    background: url('../images/background-paper.png');
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: 6rem;
@@ -562,7 +562,7 @@ section{
     font-size: x-large;
     letter-spacing: 3px;
     font-variant: small-caps;
-    background: url('/images/background-paper.png');
+    background: url('../images/background-paper.png');
     background-repeat: no-repeat;
     background-size: cover;
 
