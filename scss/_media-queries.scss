@@ -15,6 +15,25 @@
       section {display:inline-block;}
       .dog-home {display:none;}
       .vacum-home{width:100%;}
+      .main-hist-grid{width:100%; display:flex; flex-direction:column; grid-template-areas:
+        "titulo"
+        "text-one-hist" 
+        "img-text-one"
+        "img-text-two" 
+        "text-two-hist"
+        "text-three-hist" 
+        "img-text-three"
+        "img-text-four" 
+        "text-four-hist"
+        "text-five-hist" 
+        "img-text-five"
+        "img-text-six"
+        "text-six-hist"
+        "text-seven-hist" 
+        "img-text-seven" ;}
+    [class*="text-"]{background:none; padding: 0;font-size: small;font-weight: 100px;line-height: 5px;}
+    [class*="img-"]{width: 100%;margin: 0;padding: 0;align-items: center;}
+    .main-hist-grid p{margin:0;width: 100%;text-align: left;padding: 20px;}
       .animate__animated{display:none;}
       .main-caract{width:100%; display:flex; flex-direction:column; margin:0; padding:0;}
       [class*="content-"]{margin:0;}
