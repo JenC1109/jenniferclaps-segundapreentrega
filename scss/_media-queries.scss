@@ -5,7 +5,11 @@
     .logo-png {display:none;}
     .subnav {display:none;}
     .navbar{position:static!important;}
-    .botonera li a{padding:0px;margin:0px;}
+    .botonera {
+        li{ 
+            a{padding:0px;margin:0px;}
+            }
+        }
       .main{width:100%;}
       section {display:inline-block;}
       .dog-home {display:none;}
@@ -14,10 +18,10 @@
       .main-caract{width:100%; display:flex; flex-direction:column; margin:0; padding:0;}
       [class*="content-"]{margin:0;}
       .text-aditional{margin:0;padding: 0;font-size: medium;background: none;line-height : 25px}
-      .form{justify-content:left;margin-left:0;width:100%;background:none;}
-      .form{
-          .comments{width:250px;text-align: left;}
-              h3{text-align:center;}
-          }
+      .form{justify-content:left;margin-left:0;width:100%;background:none;
+        .comments{width:250px;text-align: left;}
+             h3{text-align:center;}
+            }
+     
   }
   
