@@ -164,7 +164,7 @@ main {
 /*---------------------comienza index--------------------------------------------*/
 .body-index {
   width: 100%;
-  background-image: url("/images/flowers.jpg");
+  background-image: url("images/flowers.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
@@ -185,7 +185,7 @@ main {
 .main-index {
   width: 100%;
   margin-top: 13rem;
-  background-image: url("backgraunds/460223752b81967138faffaf09aba7f6.jpg");
+  background-image: url("backgraunds/main-backg.jpg");
   background-blend-mode: darken, luminosity;
   box-shadow: 20px 4px 9px rgba(0, 1, 1, 0.25);
   margin-bottom: 4rem; }
