@@ -5,14 +5,13 @@
   box-sizing: border-box; }
 
 main {
-  background-image: url("/backgraunds/460223752b81967138faffaf09aba7f6.jpg");
-  background-color: #f1cdbc;
+  background-image: url("../backgraunds/main-backg.jpg");
   border: none;
   overflow: hidden;
   height: inherit;
   font-weight: bolder; }
 
-@media only screen and (max-width: 980px) {
+@media screen and (max-device-width: 1024px) {
   :root .botonera {
     display: inline-block;
     width: 100%;
@@ -86,7 +85,10 @@ main {
     :root .form h3 {
       text-align: center; } }
 
-/*----------------------------------------*/
+@media screen and (device-width: 1440px) {
+  :root .buscador {
+    display: none; } }
+
 .navbar {
   background-color: #faebeb;
   box-shadow: 0px 4px 9px rgba(59, 59, 59, 0.25);
@@ -148,18 +150,7 @@ main {
 .buscador {
   margin-left: 14rem; }
 
-/*
-@media only screen and (max-width: 980px) {
-
-      .botonera { display: inline-block; width:100%; font-size: 16px; font-weight: bold;padding: 0; }
-      .buscador { display:none;}
-      .logo-png {display: none;}
-      .subnav {display: none;}
-      .navbar{position: static!important;}
-      .botonera li a{padding:0px; margin:0px;}
-    }
-    */
-/*-------------termino header general de navbar---------*/
+/*----------------------------------------*/
 /*---------------------comienza index--------------------------------------------*/
 .body-index {
   width: 100%;
@@ -329,6 +320,7 @@ section a:hover {
 /*------fin pagina index-------*/
 /*-------------------comienzo pagina historia-------------------------------------*/
 .main-hist-grid {
+  background-image: url("../backgraunds/main-backg.jpg");
   overflow-x: hidden;
   display: grid;
   justify-items: center;

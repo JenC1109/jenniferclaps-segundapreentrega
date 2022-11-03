@@ -1,6 +1,7 @@
 @import "scss/general.scss";
 @import "main.scss";
 @import "media-queries.scss";
+@import "navbar.scss";
 
 $background-primary-color: #faebeb;
 $background-acent-color: #f1cdbc;
@@ -16,105 +17,6 @@ $estilos-cards-home: (
 );
 
 /*----------------------------------------*/
-
-
-.navbar{
-    background-color: $background-primary-color;
-    box-shadow: 0px 4px 9px rgba(59, 59, 59, 0.25);
-    width: 100%;
-    position: fixed!important;
-    z-index: 99;
-    top: 0;
-}
-
-
-.subnav {
-    display: none;
-    position: absolute;
-    margin-top: 1.9rem;
-		li{
-			a{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-				width: 100%;
-				text-align: center;
-				overflow: hidden;
-                padding: 0;
-			}
-		}				
-}
-
-
-
-.cuidad{
-	&:hover  
-		.subnav {
-				display: flex;
-				flex-direction: column;
-				align-content: center;
-				background-color: $background-primary-color;
-				overflow: hidden;
-		}
-
-}
-
-.logo-png{
-    overflow: visible;
-    position: absolute;
-    right: 5rem;
-    top:0;
-}
-
-
-.botonera {
-	position: relative;
-    display: flex;
-    flex-direction: row;
-	
-		li{
-			list-style: none;
-			margin: 0rem 1rem;
-			padding: 30px 0px 0px 0px;
-			a {
-				padding: 40px;
-				color: black;
-				text-decoration: none;
-				text-transform: uppercase;
-				font-weight:400;
-				font-size:15px;
-				letter-spacing: 1.5px;
-					&:hover{
-						background-color: $background-acent-color;
-						border-radius: 30px;
-						border: none;
-						overflow: hidden;
-						height: inherit;
-						font-weight: bolder;
-					}
-			}
-		}
-}
-
-
-
-.buscador{
-    margin-left: 14rem;
-}
-/*
-@media only screen and (max-width: 980px) {
-
-      .botonera { display: inline-block; width:100%; font-size: 16px; font-weight: bold;padding: 0; }
-      .buscador { display:none;}
-      .logo-png {display: none;}
-      .subnav {display: none;}
-      .navbar{position: static!important;}
-      .botonera li a{padding:0px; margin:0px;}
-    }
-    */
-
-/*-------------termino header general de navbar---------*/
-
 
 
 
@@ -332,6 +234,8 @@ section{
 /*-------------------comienzo pagina historia-------------------------------------*/
 
 .main-hist-grid{
+    background-image: 
+    url('../backgraunds/main-backg.jpg');
     overflow-x:hidden;
     display: grid;
     justify-items: center;
