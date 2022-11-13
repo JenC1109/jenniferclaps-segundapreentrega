@@ -83,6 +83,15 @@ main {
       font-size: larger; }
       :root .main-cuidados .bottons-cuid a:hover {
         font-size: larger; }
+  :root .main-higiene {
+    flex-direction: column;
+    padding-top: 5rem; }
+  :root .main-alimentac {
+    flex-direction: column;
+    padding-top: 5rem; }
+  :root .main-otrosc {
+    flex-direction: column;
+    padding-top: 5rem; }
   :root .form {
     justify-content: center;
     align-items: center;
@@ -610,13 +619,31 @@ section a:hover {
 
 /*----------*/
 .main-alimentac {
-  overflow: hidden; }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  height: 1080px; }
+  .main-alimentac div img {
+    width: 100%; }
 
 .main-higiene {
-  overflow: hidden; }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  height: 1080px; }
+  .main-higiene div img {
+    width: 100%; }
 
 .main-otrosc {
-  overflow: hidden; }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  height: 1080px; }
+  .main-otrosc div img {
+    width: 100%; }
 
 /*--------fin pagina cuidados--------*/
 /*--------------------comineza contactanos-----------------------------------*/

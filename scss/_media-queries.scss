@@ -51,6 +51,9 @@ $breackpoints: (
         .bottons-cuid{margin: 0; padding: 0; 
             a{height: auto; width: 100%;padding: 3rem;margin: 2rem 0rem;font-size:larger;
                 &:hover{font-size: larger;}} }}
+        .main-higiene{flex-direction: column;padding-top: 5rem;}
+        .main-alimentac{flex-direction: column;padding-top: 5rem;}
+        .main-otrosc{flex-direction: column;padding-top: 5rem;}
       .form{justify-content:center;align-items: center;margin:auto; width:100%; background:none; padding: 2rem 0rem 0rem 0rem;
         .comments{width:250px; text-align: left;}
              h3{text-align:center;}

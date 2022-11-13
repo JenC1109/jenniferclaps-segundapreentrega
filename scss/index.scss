@@ -496,15 +496,45 @@ section{
 
 
 .main-alimentac{
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 1080px;
+
+    div{
+        img{
+            width: 100%;
+        }
+    }
 }
 
 .main-higiene{
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 1080px;
+
+    div{
+        img{
+            width: 100%;
+        }
+    }
 }
 
 .main-otrosc{
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 1080px;
+
+    div{
+        img{
+            width: 100%;
+        }
+    }
 }
 /*--------fin pagina cuidados--------*/
 
