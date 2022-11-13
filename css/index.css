@@ -7,32 +7,28 @@
 main {
   background-image: url("../backgraunds/main-backg.jpg");
   border: none;
-  overflow: hidden;
   height: inherit;
   font-weight: bolder; }
 
 @media screen and (max-device-width: 1024px) {
   :root .botonera {
-    display: inline-block;
+    display: none;
     width: 100%;
     font-size: 16px;
     font-weight: bold;
     padding: 0; }
   :root .buscador {
     display: none; }
-  :root .logo-png {
-    display: none; }
   :root .subnav {
     display: none; }
-  :root .navbar {
-    position: static !important; }
   :root .botonera li a {
     padding: 0px;
     margin: 0px; }
   :root .main {
     width: 100%; }
   :root section {
-    display: inline-block; }
+    display: inline-block;
+    width: 100%; }
   :root .dog-home {
     display: none; }
   :root .vacum-home {
@@ -74,20 +70,100 @@ main {
     font-size: medium;
     background: none;
     line-height: 25px; }
+  :root .main-cuidados .bottons-cuid {
+    margin: 0;
+    padding: 0; }
+    :root .main-cuidados .bottons-cuid a {
+      height: auto;
+      width: 100%;
+      padding: 3rem;
+      margin: 2rem 0rem;
+      font-size: larger; }
+      :root .main-cuidados .bottons-cuid a:hover {
+        font-size: larger; }
   :root .form {
-    justify-content: left;
-    margin: 0rem 7rem 7rem 7rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     width: 100%;
-    background: none; }
+    background: none;
+    padding: 2rem 0rem 0rem 0rem; }
     :root .form .comments {
       width: 250px;
       text-align: left; }
     :root .form h3 {
-      text-align: center; } }
+      text-align: center; }
+    :root .form .text-coment {
+      line-height: 15px; } }
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+  :root [class*="section-"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    align-items: center; }
+    :root [class*="section-"] a {
+      margin: 2rem; } }
+
+@media screen and (min-device-width: 1440px) and (max-device-width: 2560px) {
+  :root .dropdown {
+    display: none; } }
 
 @media screen and (device-width: 1440px) {
   :root .buscador {
-    display: none; } }
+    display: none; }
+  :root .main-caract {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0; }
+  :root [class*="content-"] {
+    margin: 0; }
+  :root .text-aditional {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    line-height: 25px;
+    width: 100%;
+    background: none; }
+  :root .form {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 15rem 20rem 0rem 0rem; } }
+
+.dropdown {
+  width: 100%;
+  position: relative;
+  display: inline-block; }
+  .dropdown .dropbtn {
+    background-color: #faebeb;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; }
+    .dropdown .dropbtn:hover .dropbtn:focus {
+      background-color: #f1cdbc; }
+  .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #faebeb;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+    .dropdown .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block; }
+      .dropdown .dropdown-content a:hover {
+        background-color: #f1cdbc; }
+  .dropdown .show {
+    display: block; }
 
 .navbar {
   background-color: #faebeb;
@@ -100,7 +176,7 @@ main {
 .subnav {
   display: none;
   position: absolute;
-  margin-top: 1.9rem; }
+  margin-top: 0.5rem; }
   .subnav li a {
     display: flex;
     flex-direction: column;
@@ -132,7 +208,7 @@ main {
     margin: 0rem 1rem;
     padding: 30px 0px 0px 0px; }
     .botonera li a {
-      padding: 40px;
+      padding: 10px 40px;
       color: black;
       text-decoration: none;
       text-transform: uppercase;
@@ -428,29 +504,6 @@ section a:hover {
 .img-seven-hist {
   grid-area: img-text-seven; }
 
-/*
-@media only screen and (max-width: 980px) {
- 
-    .main-hist-grid{width: 100%; display: flex; flex-direction: column;grid-template-areas:"titulo"
-        "text-one-hist" 
-        "img-text-one"
-        "img-text-two" 
-        "text-two-hist"
-        "text-three-hist" 
-        "img-text-three"
-        "img-text-four" 
-        "text-four-hist"
-        "text-five-hist" 
-        "img-text-five"
-        "img-text-six"
-        "text-six-hist"
-        "text-seven-hist" 
-        "img-text-seven" ;}
-    [class*="text-"]{background: none;padding: 0;font-size: small;font-weight: 100px;line-height: 5px;}
-    [class*="img-"]{width: 100%;margin: 0;padding: 0;align-items: center;}
-    .main-hist-grid p{margin:0;width: 100%;text-align: left;padding: 20px;}
-}
-*/
 /*---------------fin pagina historia----------*/
 /*-------------comienzo pagina caracteristicas --------------*/
 .main-caract {
@@ -519,32 +572,45 @@ section a:hover {
   background-repeat: no-repeat;
   background-size: cover; }
 
-/*
-@media only screen and (max-width: 980px){
-    .main-caract{width:100%; display: flex; flex-direction: column;  margin: 0; padding: 0; }
-    [class*="content-"]{margin: 0;}
-    .text-aditional{margin:0;padding: 0;font-size: medium;background: none;line-height : 25px}
-}*/
 /*------------fin pagina caracteristicas----------------------*/
 /*-------------------comienza cuidados-home-----------------------------*/
-.main-cuidados img {
-  width: 110%;
-  margin-bottom: 0rem; }
+.main-cuidados {
+  background-image: url("../backgraunds/main-backg.jpg");
+  width: 100%;
+  height: 1080px; }
+  .main-cuidados .bottons-cuid {
+    margin: 5rem;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main-cuidados .bottons-cuid a {
+      height: 150px;
+      width: 450px;
+      padding: 3rem;
+      margin: 2rem 0rem;
+      border-radius: 12px;
+      text-align: center;
+      font-size: xx-large;
+      text-decoration: none;
+      color: white;
+      background-color: #f1cdbc; }
+      .main-cuidados .bottons-cuid a:hover {
+        color: black;
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+        font-weight: bolder;
+        font-size: xx-large; }
 
-.bottons-cuid {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 12.6rem;
-  margin-left: 9rem; }
-  .bottons-cuid a {
-    margin: 6rem;
-    width: 400px;
-    height: 85px;
-    color: transparent;
-    font-size: xx-large; }
+/*----------*/
+.main-alimentac {
+  overflow: hidden; }
+
+.main-higiene {
+  overflow: hidden; }
+
+.main-otrosc {
+  overflow: hidden; }
 
 /*--------fin pagina cuidados--------*/
 /*--------------------comineza contactanos-----------------------------------*/
@@ -604,7 +670,5 @@ span::after {
 /*----------------------cominezo footer----------------------------------*/
 footer {
   background-color: #f1cdbc;
-  bottom: 0;
-  padding-top: 25px;
-  padding-left: 30px;
-  padding-bottom: 25px; }
+  width: 100%;
+  padding: 3rem; }

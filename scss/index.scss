@@ -16,6 +16,8 @@ $estilos-cards-home: (
     trans: transform 0.5s
 );
 
+
+
 /*----------------------------------------*/
 
 
@@ -134,7 +136,6 @@ $estilos-cards-home: (
 			font-size: x-large;
 		}
 }
-
 
 
 .barf{
@@ -362,29 +363,6 @@ section{
     grid-area: img-text-seven;
 }
 
-/*
-@media only screen and (max-width: 980px) {
- 
-    .main-hist-grid{width: 100%; display: flex; flex-direction: column;grid-template-areas:"titulo"
-        "text-one-hist" 
-        "img-text-one"
-        "img-text-two" 
-        "text-two-hist"
-        "text-three-hist" 
-        "img-text-three"
-        "img-text-four" 
-        "text-four-hist"
-        "text-five-hist" 
-        "img-text-five"
-        "img-text-six"
-        "text-six-hist"
-        "text-seven-hist" 
-        "img-text-seven" ;}
-    [class*="text-"]{background: none;padding: 0;font-size: small;font-weight: 100px;line-height: 5px;}
-    [class*="img-"]{width: 100%;margin: 0;padding: 0;align-items: center;}
-    .main-hist-grid p{margin:0;width: 100%;text-align: left;padding: 20px;}
-}
-*/
 
 /*---------------fin pagina historia----------*/
 
@@ -471,42 +449,63 @@ section{
     background-size: cover;
 
 }
-/*
-@media only screen and (max-width: 980px){
-    .main-caract{width:100%; display: flex; flex-direction: column;  margin: 0; padding: 0; }
-    [class*="content-"]{margin: 0;}
-    .text-aditional{margin:0;padding: 0;font-size: medium;background: none;line-height : 25px}
-}*/
+
 
 /*------------fin pagina caracteristicas----------------------*/
 
 
 /*-------------------comienza cuidados-home-----------------------------*/
 
-.main-cuidados img{
-    width: 110%;
-    margin-bottom: 0rem;
+
+.main-cuidados{
+    background-image: url('../backgraunds/main-backg.jpg');
+    width: 100%;
+    height: 1080px;
+
+    .bottons-cuid{
+        margin: 5rem;
+        padding: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+            
+            a{
+                height: 150px;
+                width: 450px;
+                padding: 3rem;
+                margin: 2rem 0rem;
+                border-radius: 12px;
+                text-align: center;
+                font-size: xx-large;
+                text-decoration: none;
+                color: white;
+                background-color: $background-acent-color;
+                &:hover{
+                    color:black;
+                    box-shadow: $shadow-secondary;
+                    font-weight: bolder;
+                    font-size: xx-large;
+                    }
+            }
+      
+            
+    }
+}
+ /*----------*/
+
+
+.main-alimentac{
+    overflow: hidden;
 }
 
-
-.bottons-cuid{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 12.6rem;
-    margin-left: 9rem;
-		a{
-			margin: 6rem;
-			width: 400px;
-			height: 85px;
-			color: transparent;
-			font-size: xx-large;
-		}
+.main-higiene{
+    overflow: hidden;
 }
 
-
+.main-otrosc{
+    overflow: hidden;
+}
 /*--------fin pagina cuidados--------*/
 
 
@@ -584,8 +583,10 @@ span{
 
 footer{
     background-color: $background-acent-color;
-    bottom: 0;
-    padding-top: 25px;
-    padding-left: 30px;
-    padding-bottom: 25px;
+    width: 100%;
+    padding: 3rem;
+    // bottom: 0;
+    // padding-top: 25px;
+    // padding-left: 30px;
+    // padding-bottom: 25px;
 }

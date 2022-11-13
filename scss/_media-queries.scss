@@ -9,21 +9,24 @@ $breackpoints: (
 
 :root{
         @media screen and (max-device-width: map-get($breackpoints, lg)) {
-   
-    // @media only screen and (max-width: 980px) {
 
-    .botonera {display:inline-block; width:100%; font-size:16px; font-weight:bold; padding:0;}
+                
+
+    .botonera {display:none; width:100%; font-size:16px; font-weight:bold; padding:0;}
     .buscador {display:none;}
-    .logo-png {display:none;}
+    // .logo-png {display:none;}
     .subnav {display:none;}
-    .navbar{position:static!important;}
+    // .navbar{position:static!important;}
     .botonera {
         li{ 
             a{padding:0px;margin:0px;}
             }
         }
+        
       .main{width:100%;}
-      section {display:inline-block;}
+    section {display:inline-block;width: 100%;}
+   
+    
       .dog-home {display:none;}
       .vacum-home{width:100%;}
       .main-hist-grid{width:100%; display:flex; flex-direction:column; grid-template-areas:
@@ -49,14 +52,36 @@ $breackpoints: (
       .main-caract{width:100%; display:flex; flex-direction:column; margin:0; padding:0;}
       [class*="content-"]{margin:0;}
       .text-aditional{margin:0; padding:0; font-size:medium; background: none; line-height:25px}
-      .form{justify-content:left; margin:0rem 7rem 7rem 7rem; width:100%; background:none;
+      .main-cuidados{ 
+        .bottons-cuid{margin: 0; padding: 0; 
+            a{height: auto; width: 100%;padding: 3rem;margin: 2rem 0rem;font-size:larger;
+                &:hover{font-size: larger;}} }}
+
+      .form{justify-content:center;align-items: center;margin:auto; width:100%; background:none; padding: 2rem 0rem 0rem 0rem;
         .comments{width:250px; text-align: left;}
              h3{text-align:center;}
+
+             .text-coment{line-height:15px;}
             }
+       
         }
         
+        @media screen and (min-device-width:map-get($breackpoints,md)) and (max-device-width:map-get($breackpoints,xlg)) {
+            [class*="section-"]{display: flex;flex-direction: column;justify-content: center ;margin: 0; align-items:center;
+                                 a{ margin: 2rem;}
+                                }
+        }
+
+        @media screen and (min-device-width:map-get($breackpoints,xlg)) and (max-device-width:map-get($breackpoints,4k)){
+            .dropdown {display: none;}
+        }
+
         @media screen and (device-width: map-get($breackpoints, xlg)){
             .buscador {display:none;}
+            .main-caract{width:100%; display:flex; flex-direction:column; margin:0; padding:0;}
+            [class*="content-"]{margin:0;}
+            .text-aditional{margin: 0; padding:0; font-size:medium;line-height:25px; width: 100%; background: none;}
+            .form{justify-content:center;align-items: center;margin:auto; width:100%; padding: 15rem 20rem 0rem 0rem;}
         }
 }
   

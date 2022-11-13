@@ -50,6 +50,16 @@
              <img src="images/logo.png" alt="logo del sitio web" width="190px" class="logo-png">
             </li>
             
+            <div class="dropdown">
+                <button id="myBtn" class="dropbtn">MENU</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="index.html">Home</a>
+                  <a href="historia.html">Historia</a>
+                  <a href="caracteristicas.html">Características</a>
+                  <a href="cuidados.html">Cuidados</a>
+                  <a href="contactanos.html">Contactos</a>
+                </div>
+              </div>
         </nav>
             
     </header>
@@ -68,43 +78,9 @@
                        
                         <div><input type="text" name="" id="" class="comments" placeholder="Escribe tu comentario" maxlength="200"></div>
                     </label>
-                     <input type="submit" value="ENVIAR" class="button-sbmit">
+                     <input type="submit" value="ENVIAR" class="button-sbmit" onmousedown="Enviado(event)">
         </div> 
-        <!-- <section class="form-">
-        <div class="row row-col-3">
-            <div class="col"></div>
-        <div class="col-md-4">
-            <label for="validationCustom01" class="form-label">Nombre complero</label>
-            <input type="text" class="form-control" id="validationCustom01" value="Ingrese su nombre" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
-          <div class="col"></div>
-        </div>
-        <div class="row row-col-3">
-            <div class="col"></div>
-            <div class="col">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="col"></div>
-        </div>
-
-        <div class="row row-col-3">
-            <div class="col col-md-3"></div>
-          <div class="col col-md-6">
-            <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu comentario/sugerencia:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <div class="col col-md-2"></div>
-        </div>
-        </div>
-
-        <div class="col-12">
-            <button class="btn btn-primary" type="submit">ENVIAR</button>
-          </div> 
-
-    </section> -->
+        
         
     </main>
     <footer> 
@@ -112,5 +88,8 @@
         <strong style="cursor: pointer;">Preguntas frecuentes </strong>
         <span>- Página no oficial de Shih Tzu</span>
     </footer>
+
+
+    <script src="/menu-mini.js"></script>
 </body>
 </html>
