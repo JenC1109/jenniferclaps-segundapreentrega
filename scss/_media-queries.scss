@@ -9,12 +9,9 @@ $breackpoints: (
 
 :root{
         @media screen and (max-device-width: map-get($breackpoints, lg)) {
-
-                
-
     .botonera {display:none; width:100%; font-size:16px; font-weight:bold; padding:0;}
     .buscador {display:none;}
-    // .logo-png {display:none;}
+    .logo-png {width: 30%;}
     .subnav {display:none;}
     // .navbar{position:static!important;}
     .botonera {
@@ -25,8 +22,6 @@ $breackpoints: (
         
       .main{width:100%;}
     section {display:inline-block;width: 100%;}
-   
-    
       .dog-home {display:none;}
       .vacum-home{width:100%;}
       .main-hist-grid{width:100%; display:flex; flex-direction:column; grid-template-areas:
@@ -56,14 +51,11 @@ $breackpoints: (
         .bottons-cuid{margin: 0; padding: 0; 
             a{height: auto; width: 100%;padding: 3rem;margin: 2rem 0rem;font-size:larger;
                 &:hover{font-size: larger;}} }}
-
       .form{justify-content:center;align-items: center;margin:auto; width:100%; background:none; padding: 2rem 0rem 0rem 0rem;
         .comments{width:250px; text-align: left;}
              h3{text-align:center;}
-
              .text-coment{line-height:15px;}
             }
-       
         }
         
         @media screen and (min-device-width:map-get($breackpoints,md)) and (max-device-width:map-get($breackpoints,xlg)) {
@@ -82,6 +74,10 @@ $breackpoints: (
             [class*="content-"]{margin:0;}
             .text-aditional{margin: 0; padding:0; font-size:medium;line-height:25px; width: 100%; background: none;}
             .form{justify-content:center;align-items: center;margin:auto; width:100%; padding: 15rem 20rem 0rem 0rem;}
+        }
+
+        @media screen and (device-width: map-get($breackpoints, lg)){
+            .logo-png {width: 20%;}
         }
 }
   

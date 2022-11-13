@@ -19,6 +19,8 @@ main {
     padding: 0; }
   :root .buscador {
     display: none; }
+  :root .logo-png {
+    width: 30%; }
   :root .subnav {
     display: none; }
   :root .botonera li a {
@@ -135,6 +137,10 @@ main {
     width: 100%;
     padding: 15rem 20rem 0rem 0rem; } }
 
+@media screen and (device-width: 1024px) {
+  :root .logo-png {
+    width: 20%; } }
+
 .dropdown {
   width: 100%;
   position: relative;
@@ -196,7 +202,7 @@ main {
 .logo-png {
   overflow: visible;
   position: absolute;
-  right: 5rem;
+  right: 4rem;
   top: 0; }
 
 .botonera {
@@ -224,7 +230,7 @@ main {
         font-weight: bolder; }
 
 .buscador {
-  margin-left: 14rem; }
+  margin-left: 10rem; }
 
 /*----------------------------------------*/
 /*---------------------comienza index--------------------------------------------*/
@@ -333,7 +339,7 @@ main {
   transform: scale(1.1); }
 
 .stress {
-  background: url("../images/shih-tzu-breed-picture-1.jpg");
+  background: url("../images/shih-tzu-breed-picture-1.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
@@ -360,7 +366,7 @@ main {
   transition: transform 0.5s; }
 
 .hemlich {
-  background: url("../images/shih-tzu-3.jpg");
+  background: url("../images/shih-tzu-3.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;

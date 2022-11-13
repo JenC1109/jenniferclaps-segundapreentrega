@@ -158,7 +158,7 @@ $estilos-cards-home: (
 }
 
 .stress{
-    background: url('../images/shih-tzu-breed-picture-1.jpg');
+    background: url('../images/shih-tzu-breed-picture-1.webp');
     background-repeat: map-get($estilos-cards-home , brepeat);
     background-size:  map-get($estilos-cards-home , size);
     width: 500px;
@@ -188,7 +188,7 @@ $estilos-cards-home: (
 }
 
 .hemlich{
-    background: url('../images/shih-tzu-3.jpg');
+    background: url('../images/shih-tzu-3.webp');
     background-repeat: map-get($estilos-cards-home , brepeat);
     background-size:  map-get($estilos-cards-home , size);
     width: 500px;
