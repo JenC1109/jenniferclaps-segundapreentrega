@@ -98,7 +98,7 @@ main {
     margin: auto;
     width: 100%;
     background: none;
-    padding: 2rem 0rem 0rem 0rem; }
+    padding: 5rem 0rem 0rem 0rem; }
     :root .form .comments {
       width: 250px;
       text-align: left; }
@@ -399,15 +399,6 @@ section a:hover {
   font-weight: bolder;
   font-size: xx-large; }
 
-/*
-@media only screen and (max-width: 980px) {
- 
-    main{width: 100%;}
-   section { display: inline-block;}
-    .dog-home {display: none;}
-    .vacum-home{width: 100%;}
-    .animate__animated{display: none;}
-}*/
 /*------fin pagina index-------*/
 /*-------------------comienzo pagina historia-------------------------------------*/
 .main-hist-grid {
