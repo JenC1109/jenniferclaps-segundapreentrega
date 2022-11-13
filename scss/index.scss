@@ -27,7 +27,7 @@ $estilos-cards-home: (
 .body-index{
     width: 100%;
     background-image: 
-    url('../images/flowers.jpg');
+    url('../images/flowers.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -178,7 +178,7 @@ $estilos-cards-home: (
 }
 
 .rcp{
-    background: url('../images/shih-poo-mixed-dog-breed-pictures-cover.jpg');
+    background: url('../images/shih-poo-mixed-dog-breed-pictures-cover.webp');
     background-repeat: map-get($estilos-cards-home , brepeat);
     background-size:  map-get($estilos-cards-home , size);
     width: 500px;
@@ -198,7 +198,7 @@ $estilos-cards-home: (
 }
 
 .ice-cream{
-    background: url('../images/ice-cream.jpg');
+    background: url('../images/ice-cream.webp');
     background-repeat: map-get($estilos-cards-home , brepeat);
     background-size:  map-get($estilos-cards-home , size);
     width: 500px;
